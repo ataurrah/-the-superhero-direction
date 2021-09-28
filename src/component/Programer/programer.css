@@ -1,0 +1,9 @@
+.cart{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.image{
+    width: 250px;
+    height: 300px;
+}
