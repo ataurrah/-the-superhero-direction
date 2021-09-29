@@ -3,7 +3,12 @@
     grid-template-columns: repeat(3,1fr);
     
 }
+
+
 .image{
     width: 250px;
     height: 300px;
+}
+.cardstyle{
+    background-color: rgb(154, 226, 187);
 }

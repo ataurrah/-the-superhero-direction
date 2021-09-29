@@ -1,12 +1,21 @@
 import React from 'react';
 import './cart.css'
-const Cart = () => {
+const Cart = (props) => {
+    const {name,salary}=props.selectedDev
     return (
-        <div className='cartt'>
-           <h4> Total Developer:{}</h4>
-           <h5> Total Cost:{}</h5>
-        </div>
+        <div className ="mt-1 cartlist">
+  
+      <div >
+       <p>{name}, </p>
+       <p>${salary}</p>
+     
+       </div>
+    
+    </div>
     );
 };
 
 export default Cart;
+
+
+
